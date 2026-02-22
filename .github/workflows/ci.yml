@@ -23,6 +23,5 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Run app (intentional failure)
-      run: |
-        python fake_app.py
+    - name: Check Python version
+      run: python --version
