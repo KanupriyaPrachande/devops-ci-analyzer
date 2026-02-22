@@ -23,5 +23,5 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Check Python version
-      run: python --version
+    - name: Run app
+      run: python app.py
